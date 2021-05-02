@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="owfont-regular.css">
+      <link rel="stylesheet" href="style.css" />
+      <title>Momentum</title>
+  </head>
+
+  <body onload="loadFunction()">
+
+      <section class="all_info">
+          <section class="main_info">
+              <div class="time"></div>
+              <div class="data"></div>
+              <div class="weather">
+                  <div class="city" contenteditable="true">Minsk</div>
+                  <div><i class="weather-icon owf"></i></div>
+                  <img class="sad" src="sad.png">
+                  <div class="text-for-not-found"></div>
+                  <div class="temperature"></div>
+                  <div class="weather-wind"></div>
+                  <div class="humidity"></div>
+              </div>
+              <h1>
+                  <span class="greeting"></span>
+                  <span class="name" contenteditable="true"></span>
+              </h1>
+              <h3>What Is Your Focus For Today?</h3>
+              <div class="focus" contenteditable="true"></div>
+              <figure class="quote">
+                  <blockquote>
+                      You were not born a winner, and you were not born a loser. You are what you make yourself be.
+                  </blockquote>
+                  <figcaption>
+                      Lou Holtz
+                  </figcaption>
+              </figure>
+             <div class="buttons">
+                <div class="btn_1"><button class="btn_quote"></button></div>
+               <div class="btn_2"><button class="btn_preview" onclick="previewButtonClick()"></button></div> 
+                </div> 
+          </section>
+        
+      </section>
+
+      <script src="script.js"></script>
+  </body>
+
+  </html>
